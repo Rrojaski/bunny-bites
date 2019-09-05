@@ -1,0 +1,33 @@
+{
+  "name": "bunnybites",
+  "version": "1.0.0",
+  "description": "Full-stack React web application comes action packed with advanced styling, enhanced social media features, and fun bunny-themed atmosphere",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rrojaski/bunny-bites.git"
+  },
+  "author": "Roman Rojas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rrojaski/bunny-bites/issues"
+  },
+  "homepage": "https://github.com/Rrojaski/bunny-bites#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.12",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.2"
+  }
+}
